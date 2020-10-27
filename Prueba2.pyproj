@@ -39,8 +39,19 @@
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
     <Compile Include="manage.py" />
+    <Compile Include="Prueba2\settings\base.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Prueba2\settings\local.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Prueba2\settings\production.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Prueba2\settings\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Prueba2\__init__.py" />
-    <Compile Include="Prueba2\settings.py" />
     <Compile Include="Prueba2\urls.py" />
     <Compile Include="Prueba2\wsgi.py" />
   </ItemGroup>
@@ -55,6 +66,7 @@
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="Prueba2\" />
+    <Folder Include="Prueba2\settings\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\templates\app\TranspasoMongoDB_Mysql.html" />

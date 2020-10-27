@@ -84,16 +84,7 @@ DATABASES = {
     }
 }
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE'    :'djongo',
-#        'NAME'      :'Prueba',
-#        'HOST'      :'mongodb+srv://Prueba:prueba@cluster0.a7p1n.mongodb.net/Prueba?retryWrites=true&w=majority',
-#        'USER'      :'Prueba',
-#
-#        'PASSWORD'  :'prueba',
-#    }
-#}
+
 
 
 # Password validation
